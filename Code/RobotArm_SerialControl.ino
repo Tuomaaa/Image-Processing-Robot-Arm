@@ -25,6 +25,8 @@ Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 // min/max limits (microseconds)
 const uint16_t servoMin[] = { 600, 600, 800, 1000, 1000 };   // pin 0,1,2,3,4
 const uint16_t servoMax[] = { 1800, 1300, 2000, 2000, 1800 }; // pin 0,1,2,3,4
+//these are override later for testing purpose
+
 
 void setup() {
   Serial.begin(baudrate);
